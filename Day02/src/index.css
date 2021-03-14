@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*--------------------------------------------Home Component------------------*/
+.RigestetForm{
+  margin: 5% auto;
+  border: solid lightgray 5px;
+  width: 50%;
+  height: 30%;
+  text-align: center;
+}
+
+.studentTable{
+  margin: 5% auto;
+  
+  width: 50%;
+  height: 30%;
+  text-align: center;
+}
+.cutomeTable{
+  margin-left: 10%;
+}
+.divBottom{
+  border-bottom:2px solid lightgray ;
+  
+}
+.TableHead{
+ border-bottom: 2px solid lightgray;
+ background-color: lemonchiffon;
+}
+
