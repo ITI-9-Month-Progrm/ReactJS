@@ -6,5 +6,8 @@ Learn how to use ReactJs Library
 ## Day02
 * Component Interaction
 * Routing
+## Day03
+* Component Life cycle
+* ApI and Json-Server
 
 
