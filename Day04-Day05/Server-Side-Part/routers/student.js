@@ -5,14 +5,14 @@ const { getAllStudent, addStudent, updateStudent, deleteStudent, studentDetails 
 
 const multer = require('multer');
 
-app.use(express.static(path.join(__dirname, './uploads/')));
+//app.use(express.static(path.join(__dirname, './uploads/')));
 const storage = multer.diskStorage({
     destination: function(req, file, cb) {
         cb(null, "./uploads");
 
     },
     filename: function(req, file, cb) {
-        cb(null, file.fieldname + '-' + Date.now()+".jpg");
+        cb(null, Date.now()+'_'+file.originalname );
     }
 });
 
