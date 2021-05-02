@@ -9,5 +9,7 @@ Learn how to use ReactJs Library
 ## Day03
 * Component Life cycle
 * ApI and Json-Server
+## Day04 and Day05
+* * Redux and Context Concepts 
 
 
